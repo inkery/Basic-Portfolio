@@ -130,7 +130,7 @@ button a:hover {
 }
 
 #MainPage {
-    background-image: url("images/wheat.png");
+    background-image: url("assets/wheat.png");
     background-color: #EDECEC ;
     padding: 40px 100px;
 
@@ -185,7 +185,7 @@ button {
     position: relative; 
     width: 250px;
     height: 250px;
-    background-image: url(images/hangman.jpg);
+    background-image: url(assets/hangman.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 40% 60%;
@@ -197,7 +197,7 @@ button {
     position: relative; 
     width: 250px;
     height: 250px;
-    background-image: url(images/rpg.jpg);
+    background-image: url(assets/rpg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 40% 60%;
@@ -210,7 +210,7 @@ button {
     position: relative; 
     width: 250px;
     height: 250px;
-    background-image: url(images/headphones.jpg);
+    background-image: url(assets/headphones.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 40% 60%;
@@ -222,7 +222,7 @@ button {
     position: relative; 
     width: 250px;
     height: 250px;
-    background-image: url(images/rutgers.jpg);
+    background-image: url(assets/rutgers.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 40% 60%;
@@ -235,7 +235,7 @@ button {
     position: relative; 
     width: 250px;
     height: 250px;
-    background-image: url(images/rps.jpg);
+    background-image: url(assets/rps.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 40% 60%;

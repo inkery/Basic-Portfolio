@@ -100,24 +100,6 @@
 
 }
 
-#ContentBox {
-
-    background-color: white ;
-    width: 90%;
-    height: 600px;
-    padding: 25px;
-    margin: 25px 25px 25px 25px;
-    color:black;
-    
-}
-
-#me {
-    
-float:left;
-width:200px;
-height:200px;   
-
-}
 
 #PortfolioBox{
 
@@ -134,7 +116,7 @@ height:200px;
     background-image: url("assets/wheat.png");
     background-color: #EDECEC ;
     padding: 20px 5px 200px 10px;
-    height: 900px;
+    height: 1100px;
 
     
 }
@@ -158,12 +140,6 @@ p {
 
 } 
 
-
-.Name {width: 90%; height: 20px}
-
-.Email {width: 90%; height: 20px}
-
-.Message {width: 90%; height: 200px}
 
 button {
 
@@ -288,22 +264,22 @@ a:active {
 @media screen and (max-width: 980px) {
    
   
-  #MainPage, {
+  #MainPage{
   
       margin: 10px 10px 10px 10px;
       float:none;
-      width:60%; 
-      height: 800px;  
+      width: 980px; 
+      height: 1100px;  
 
   }
 
-  #ContentBox{
+  #PortfolioBox{
 
     background-color: white ;
-    width: 70%;
-    height: 450px;
-    padding: 15px;
-    margin: 10px 10px 10px 10px;
+    width: 60%;
+    height: 1050px;
+    padding: 25px;
+    margin: 25px 25px 25px 25px;
     color:black;
 
   }
@@ -323,121 +299,156 @@ a:active {
     
     }
     
-    }
-/* 768PX */
-@media screen and (max-width: 768px) {
     
-  
-  #MainPage,  {
-  
-      margin: 10px 10px 10px 0px;
-      float:none;
-      width:60%; 
-      height: 900px;  
 
-  }
 
-  #ContentBox{
-
-    background-color: white ;
-    width: 85%;
-    height: 550px;
-    padding: 10px 20px 10px 20px;
-    margin: 15px 15px 15px 15px;
-    color:black;
-
-  }
-
-  #navbar, #holder ul li a {
-
-        text-decoration:none;
-        float:right;
-        margin-right:5px;
-        font-family:'Georgia', Times, Times New Roman, serif;
-        font-size: 14px;
-        color:#000;
-        padding:10px;
-        width:100%;
-        text-align:center;
-        display:block;
-        background:#ffffff ;
-    
-    }
-
-    #me {
-
-        width: 300px;
-        height: 300px;
-        
-    }    
     
     
 }
 
-/* 640 px */
-@media screen and (max-width: 640px) {
-    
+/* 980PX */
+@media screen and (max-width: 768px) {
+   
   
-  #MainPage,  {
+  #MainPage{
   
-      margin: 10px 10px 10px 0px;
+      margin: 10px 10px 10px 10px;
       float:none;
-      width:60%; 
-      height: 900px;  
+      width: 768px; 
+      height: 1100px;  
 
   }
 
-  #ContentBox{
+  #PortfolioBox{
 
     background-color: white ;
-    width: 90%;
-    height: 750px;
-    padding: 10px 20px 10px 20px;
-    margin: 15px 15px 15px 15px;
+    width: 80%;
+    height: 1050px;
+    padding: 25px;
+    margin: 25px 25px 25px 25px;
     color:black;
 
   }
 
   #navbar, #holder ul li a {
 
+        text-decoration:none;
+        float:right;
+        margin-right:5px;
+        font-family:'Georgia', Times, Times New Roman, serif;
+        color:#000;
+        padding:10px;
+        width:100%;
+        text-align:center;
+        display:block;
+        background:#ffffff ;
+    
+    }  
+    
+}
+
+@media screen and (max-width: 640px) {
+   
+  
+    #MainPage{
+    
+        margin: 10px 10px 10px 10px;
+        float:none;
+        width: 640px; 
+        height: 1100px;  
+  
+    }
+  
+    #PortfolioBox{
+  
+      background-color: white ;
+      width: 70%;
+      height: 1050px;
+      padding: 25px;
+      margin: 25px 25px 25px 25px;
+      color:black;
+  
+    }
+  
+    #navbar, #holder ul li a {
+  
+          text-decoration:none;
+          float:right;
+          margin-right:5px;
+          font-family:'Georgia', Times, Times New Roman, serif;
+          color:#000;
+          padding:10px;
+          width:100%;
+          text-align:center;
+          display:block;
+          background:#ffffff ;
+      
+      } 
+      
+    #navbar #holder ol {
         text-decoration:none;
         float:left;
         margin-right:5px;
         font-family:'Georgia', Times, Times New Roman, serif;
-        font-size: 14px;
-        color:#000;
-        padding:10px;
+        color:white;
+        border:1px solid #cccccc;
+        padding:20px;
         width:100%;
         text-align:center;
         display:block;
-        background:#ffffff ;
-    
+        background:#4aaaa5;
+        font-size: 25px;
+        font-weight: bold;
+
+    }  
+
+    #Hangman {
+        width: 90%;
+        margin: 10px;
+        position: relative; 
+        height: 250px;
+        display:block;
+        float:left;
+        border:1px solid #000; 
     }
-
-  #navbar #holder ol {
-    text-decoration:none;
-    float:left;
-    margin-right:5px;
-    font-family:'Georgia', Times, Times New Roman, serif;
-    color:white;
-    border:1px solid #cccccc;
-    padding:20px;
-    width:100%;
-    text-align:center;
-    display:block;
-    background:#4aaaa5;
-    font-size: 25px;
-    font-weight: bold;
-
-}
-
-#me {
-
-width: 100%;
-height: 300px;
-
-}
     
+    #RPG {
+        width: 90%;
+        margin: 10px;
+        position: relative; 
+        height: 250px;
+        display:block;
+        float:left;
+        border:1px solid #000; ;   
+    }
     
+    #Trivia {
+        width: 90%;
+        margin: 10px;
+        position: relative; 
+        height: 250px;
+        display:block;
+        float:left;
+        border:1px solid #000;  
+    }
+    
+    #Rutgers {
+        visibility:hidden;
+        display:none; 
+    }
+    
+    #RPS {
+        visibility:hidden; 
+        display:none;  
+  } 
+  
+   .footer{
+        display:none;    
+  }
+
 }
+
+
+
+
 
